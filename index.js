@@ -2,6 +2,7 @@ let score_home = document.getElementById('score_home')
 let score_guest = document.getElementById('score_guest')
 
 let count = 0
+let guestCount = 0
 
 //Score Home
 function add_one(){
@@ -27,21 +28,21 @@ function reset_home(){
 //Score Guest
 
 function add_one_guest(){
-    count += 1
-    score_guest.textContent = count
+    guestCount += 1
+    score_guest.textContent = guestCount
 }
 
 function add_two_guest(){
-    count += 2
-    score_guest.textContent = count
+    guestCount += 2
+    score_guest.textContent = guestCount
 }
 
 function add_three_guest(){
-    count += 3
-    score_guest.textContent = count
+    guestCount += 3
+    score_guest.textContent = guestCount
 }
 
 function reset_guest(){
-    count = 0
-    score_guest.textContent = count
+    guestCount = 0
+    score_guest.textContent = guestCount
 }
