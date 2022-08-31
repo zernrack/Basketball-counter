@@ -68,3 +68,10 @@ button:hover {
     border-color: #000000;
     background: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .container{
+        flex-flow: column nowrap;
+    }
+
+}
