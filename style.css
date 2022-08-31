@@ -1,0 +1,41 @@
+body{
+    background-color: #1B244A;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 100px;
+}
+
+.home-container{
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.guest-container{
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.score-container{
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.score{
+    width: 20px;
+    color: white;
+    margin: auto;
+}
+h1{
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
