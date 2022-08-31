@@ -73,5 +73,7 @@ button:hover {
     .container{
         flex-flow: column nowrap;
     }
-
+    .guest-container{
+        margin-top: 80px;
+    }
 }
